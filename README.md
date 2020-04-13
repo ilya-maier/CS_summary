@@ -9,11 +9,17 @@ simple implementation in Python. Hope it helps you :)
 # Table of contents
 So far this repo includes:
 - Sorting algorithms
-    - Bubble Sort
-    - Insertion Sort
+    - Bubble sort
+    - Insertion sort
+    - Merge sort
+    - Quicksort
 - Recursive algorithms
     - Intro to recursion
 - Helpers
 
 # Some helpful links and articles:
-- https://www.bigocheatsheet.com/
+- Comparing time and space complexities of all algorithms and data structures -> https://www.bigocheatsheet.com/
+- Comparing how each sorting algorithm works -> https://www.toptal.com/developers/sorting-algorithms
+
+# Courses and videos on topic:
+- https://frontendmasters.com/courses/computer-science/
