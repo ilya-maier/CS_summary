@@ -29,7 +29,7 @@ def merge(arr1, arr2):
 
 def merge_sort(arr):
     length = len(arr)
-    if length == 1:
+    if length <= 1:
         return arr
     return merge(merge_sort(arr[:int(length / 2)]),
                  merge_sort(arr[int(length / 2):]))
