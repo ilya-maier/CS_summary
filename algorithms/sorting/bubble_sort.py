@@ -7,8 +7,7 @@
     https://en.wikipedia.org/wiki/Bubble_sort
     https://en.wikipedia.org/wiki/XOR_swap_algorithm
 """
-import time
-from random import random
+from helpers import test_sorting_algorithm
 
 
 def bubble_sort(arr):
@@ -58,24 +57,5 @@ def bubble_sort_optimized(arr):
         index = last_swapped
 
 
-print("Normal version:")
-arr = [int(random() * 100) for _ in range(100)]
-print(arr)
-
-start = time.time()
-bubble_sort(arr)
-end = time.time()
-
-print(arr)
-print(f"Time elapsed: {end - start}\n")
-
-print("Optimized version:")
-arr = [int(random() * 100) for _ in range(100)]
-print(arr)
-
-start = time.time()
-bubble_sort_optimized(arr)
-end = time.time()
-
-print(arr)
-print(f"Time elapsed: {end - start}")
+test_sorting_algorithm(bubble_sort)
+test_sorting_algorithm(bubble_sort_optimized, version="optimized")
