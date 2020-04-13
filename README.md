@@ -20,6 +20,7 @@ So far this repo includes:
 # Some helpful links and articles:
 - Comparing time and space complexities of all algorithms and data structures -> https://www.bigocheatsheet.com/
 - Comparing how each sorting algorithm works -> https://www.toptal.com/developers/sorting-algorithms
+- Why is O(n*log(n)) the best Time Complexity for comparison-based sorting algorithms -> https://www.quora.com/How-do-I-prove-that-a-comparison-based-sort-of-a-length-N-array-cannot-be-done-in-O-N-time-in-the-worst-case
 
 # Courses and videos on topic:
 - https://frontendmasters.com/courses/computer-science/
