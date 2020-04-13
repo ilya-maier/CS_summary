@@ -6,9 +6,9 @@
 
     https://en.wikipedia.org/wiki/Insertion_sort
 """
-import time
-from random import random
 from bisect import bisect_left
+
+from helpers import test_sorting_algorithm
 
 
 def insertion_sort(arr):
@@ -31,24 +31,7 @@ def insertion_sort_optimized(arr):
     return array
 
 
-print("Normal version:")
-arr = [int(random() * 100) for _ in range(100)]
-print(arr)
-
-start = time.time()
-insertion_sort(arr)
-end = time.time()
-
-print(arr)
-print(f"Time elapsed: {end - start}\n")
-
-print("Optimized version:")
-arr = [int(random() * 100) for _ in range(100)]
-print(arr)
-
-start = time.time()
-arr = insertion_sort_optimized(arr)
-end = time.time()
-
-print(arr)
-print(f"Time elapsed: {end - start}\n")
+test_sorting_algorithm(insertion_sort)
+test_sorting_algorithm(insertion_sort_optimized,
+                       version="optimized",
+                       returns=True)
