@@ -5,7 +5,7 @@
         and concatenates smaller part, pivot and the bigger part
     Time Complexity: O(n*log(n)) -> average
                      O(n^2) -> worst
-    Space Complexity: O(n)
+    Space Complexity: O(log(n))
 
     https://en.wikipedia.org/wiki/Quicksort
 """
