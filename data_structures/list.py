@@ -1,3 +1,12 @@
+"""
+Implementation of List/Array
+   Access -> O(1)
+   Insertion -> O(n)
+   Deletion -> O(n)
+   Search -> O(n)
+"""
+
+
 class List:
 
     def __init__(self, *elements):

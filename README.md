@@ -15,6 +15,8 @@ So far this repo includes:
     - Quicksort
 - Recursive algorithms
     - Intro to recursion
+- Data structures
+    - Array/List
 - Helpers
 
 # Some helpful links and articles:
