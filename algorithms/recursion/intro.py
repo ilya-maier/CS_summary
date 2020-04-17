@@ -1,5 +1,6 @@
 # An introduction to recursive algorithms
 
+
 # Returns the factorial of a given number
 def factorial(n):
     # base statement

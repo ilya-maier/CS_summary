@@ -3,11 +3,9 @@ import time
 from random import random
 
 
-def test_sorting_algorithm(sort=None, version="normal", returns=False, n=1000):
-    if version.lower() == "normal":
-        print("Normal version:")
-    else:
-        print("Optimized version:")
+def test_sorting_algorithm(sort=None, n=1000, returns=False):
+    print(f"{sort.__name__}:")
+
     arr = [int(random() * n) for _ in range(n)]
     print(arr)
 

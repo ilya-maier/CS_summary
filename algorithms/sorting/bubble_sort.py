@@ -54,4 +54,4 @@ def bubble_sort_optimized(arr):
 
 
 test_sorting_algorithm(bubble_sort)
-test_sorting_algorithm(bubble_sort_optimized, version="optimized")
+test_sorting_algorithm(bubble_sort_optimized)
