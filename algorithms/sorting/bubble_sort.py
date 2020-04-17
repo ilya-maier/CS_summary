@@ -16,9 +16,7 @@ def bubble_sort(arr):
         swapped = False
         for i in range(len(arr) - 1):
             if arr[i] > arr[i + 1]:
-                temp = arr[i + 1]
-                arr[i + 1] = arr[i]
-                arr[i] = temp
+                arr[i], arr[i + 1] = arr[i + 1], arr[i]
                 swapped = True
 
 
@@ -34,9 +32,7 @@ def bubble_sort_optimized(arr):
         swapped = False
         for i in range(first_swapped, len(arr) - 1):
             if arr[i] > arr[i + 1]:
-                temp = arr[i + 1]
-                arr[i + 1] = arr[i]
-                arr[i] = temp
+                arr[i], arr[i + 1] = arr[i + 1], arr[i]
 
                 """ 
                 # one could also use xor swap, which does not instantiate the
