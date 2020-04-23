@@ -1,4 +1,4 @@
-from data_structures.tree_node import TreeNode
+from data_structures.nodes.tree_node import TreeNode
 
 
 class BinaryTree:

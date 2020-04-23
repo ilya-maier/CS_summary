@@ -1,4 +1,4 @@
-from data_structures.avl_node import AVLNode
+from data_structures.nodes.avl_node import AVLNode
 
 
 def get_height(node):
